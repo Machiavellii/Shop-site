@@ -1,0 +1,38 @@
+#modal{
+  width: 400px;
+  height: 225px;
+  border: 1px solid black;
+  position: absolute;
+  top: -45px;
+  right: 85%;
+  background-color: #a35d84bf;
+  display: none;
+}
+.modal-header .close{
+	width: 20px;
+	height: 20px;
+	color: #000;
+	border: 1px solid black;
+	font-size: 15px;
+	margin-top: 0;
+	background-color: black;
+}
+.modal-header{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	border-bottom: 1px solid #cd3838;
+	padding: 0;
+}
+#save, #delete{
+	position: relative;
+	margin-left: 95px;
+	margin-top: 150px;
+}
+#img-H{
+	width: 1px;
+	height: 1px;
+	position: relative;
+	left: 95%;
+	bottom: 25px;
+}
