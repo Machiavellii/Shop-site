@@ -74,7 +74,7 @@ function displayProducts(res) {
 
 }
 
-// Comment
+
 function funId() {
   let product = $('.pro-img-holder')
   product.each(function (e) {
