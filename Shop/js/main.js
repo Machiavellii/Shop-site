@@ -10,6 +10,9 @@ let counter = localStorage.getItem("counter");
 counter = JSON.parse(counter);
 $(badge).html(counter);
 
+
+
+// Fetch Products
 $.ajax({
   url: 'https://raw.githubusercontent.com/Danilovesovic/shop/master/shop.json',
   type: 'get',
