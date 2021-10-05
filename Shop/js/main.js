@@ -46,6 +46,7 @@ colBtns.on('click',function  (el) {
   
 })
 
+// Filter
 function search (res) {
   inputF.on('keyup',function () {
     if (this.value.length >= 3) {
