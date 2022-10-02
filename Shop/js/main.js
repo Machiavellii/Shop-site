@@ -8,7 +8,7 @@ let badge = $('.badge');
 let colBtns = $('[data-col]');
 let counter = localStorage.getItem("counter");
 counter = JSON.parse(counter);
-$(badge).html(counter);
+$(badge).html(counter)
 
 
 
