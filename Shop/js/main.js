@@ -26,9 +26,9 @@ $.ajax({
 
 
 colBtns.on('click',function  (el) {
-  let val = $(this).data('col');
-  $('.cut').removeClass('active');
-  $(this).parent().addClass('active');
+  let val = $(this).data('col')
+  $('.cut').removeClass('active')
+  $(this).parent().addClass('active')
   el.preventDefault();
   $.ajax({
     url: 'https://raw.githubusercontent.com/Danilovesovic/shop/master/shop.json',
