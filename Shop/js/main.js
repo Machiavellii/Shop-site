@@ -4,10 +4,10 @@ let text = '';
 let rg = new RegExp('{{productTitle}}', 'gi');
 let inputF = $('.search-inp');
 let slide = $('.intro-header')
-let badge = $('.badge');
-let colBtns = $('[data-col]');
-let counter = localStorage.getItem("counter");
-counter = JSON.parse(counter);
+let badge = $('.badge')
+let colBtns = $('[data-col]')
+let counter = localStorage.getItem("counter")
+counter = JSON.parse(counter)
 $(badge).html(counter)
 
 
