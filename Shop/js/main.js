@@ -1,5 +1,5 @@
 let template = $('#my-template').html();
-let mainRow = $('#main-row');
+let mainRow = $('#main-row')
 let text = ''
 let rg = new RegExp('{{productTitle}}', 'gi')
 let inputF = $('.search-inp')
