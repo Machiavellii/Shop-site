@@ -65,7 +65,7 @@ function search (res) {
   })
 }
 function displayProducts(res) {
-  let text = '';
+  let text = ''
   res.forEach(function(el) {
     text += template.replace('{{imgSrc}}', el.imgSrc)
       .replace(rg, el.productTitle)
@@ -73,7 +73,7 @@ function displayProducts(res) {
       .replace('{{price}}', el.price)
 
   })
-  mainRow.html("");
+  mainRow.html("")
   mainRow.html(text)
 
 }
@@ -83,8 +83,8 @@ function funId() {
   let product = $('.pro-img-holder')
   product.each(function (e) {
   let id =  $(this).children('a').children('img').attr('src').match(/\d/g);
-  id = id.join("");
-  $(this).attr('id', id);
+  id = id.join("")
+  $(this).attr('id', id)
   $(this).on('click',function () {
     localStorage.setItem('id',JSON.stringify(id));
   })
