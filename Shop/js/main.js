@@ -1,8 +1,8 @@
 let template = $('#my-template').html();
 let mainRow = $('#main-row');
-let text = '';
-let rg = new RegExp('{{productTitle}}', 'gi');
-let inputF = $('.search-inp');
+let text = ''
+let rg = new RegExp('{{productTitle}}', 'gi')
+let inputF = $('.search-inp')
 let slide = $('.intro-header')
 let badge = $('.badge')
 let colBtns = $('[data-col]')
